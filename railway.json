@@ -4,7 +4,7 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "gunicorn backend_wizards.wsgi --log-file -",
+    "startCommand": "gunicorn profile_card.wsgi --log-file -",
     "restartPolicyType": "ON_FAILURE",
     "restartPolicyMaxRetries": 10
   }
